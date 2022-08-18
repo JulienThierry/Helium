@@ -36,6 +36,40 @@ nav ul {
   display: flex;
   justify-content: space-between;
 }
+
+.littleCircle {
+  background-color: #2129bd9c;
+  height: 15px;
+  width: 15px;
+  border-radius: 300px;
+  z-index: 5;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.mediumCircle {
+  background-color: rgba(233, 233, 233, 0.644);
+  height: 100px;
+  width: 100px;
+  border-radius: 300px;
+  z-index: 4;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: 0.3s;
+  pointer-events: none;
+}
+.bigCircle {
+  background-color: rgba(7, 7, 7, 0.637);
+  height: 200px;
+  width: 200px;
+  border-radius: 300px;
+  z-index: 3;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  pointer-events: none;
+}
+
 section {
   display: flex;
 }
